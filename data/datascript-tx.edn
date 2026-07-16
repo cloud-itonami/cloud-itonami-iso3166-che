@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "che.code-of-obligations-1911"
+           :title "Federal Act on the Amendment of the Swiss Civil Code (Part Five: The Code of Obligations)"
+           :jurisdiction "CHE"
+           :kind :law
+           :law-number "SR 220"
+           :url "https://www.wipo.int/wipolex/edocs/lexdocs/laws/en/ch/ch310en.html"
+           :url-provenance :wipo-lex-mirror
+           :enacted-date "1911-03-30"
+           :retrieved-at "2026-07-17"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "che.fadp-2020-federal-act-data-protection"
+           :title "Federal Act on Data Protection (FADP)"
+           :jurisdiction "CHE"
+           :kind :law
+           :law-number "SR 235.1"
+           :url "https://www.dlapiperdataprotection.com/?t=law&c=CH"
+           :url-provenance :dlapiper-data-protection-laws-of-the-world
+           :enacted-date "2020-09-25"
+           :retrieved-at "2026-07-17"
+           :topic [:data-protection :privacy]}]
